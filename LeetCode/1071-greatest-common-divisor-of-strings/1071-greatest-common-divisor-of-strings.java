@@ -5,10 +5,7 @@ class Solution {
 
         if(!t1.equals(t2)) return "";
 
-        int size1 = str1.length();
-        int size2 = str2.length();
-
-        int gcd = gcd(size1, size2);
+        int gcd = gcd(str1.length(), str2.length());
 
         StringBuilder sb = new StringBuilder();
 
